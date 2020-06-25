@@ -6,7 +6,7 @@ Ubuntu, It support base user creation and password setting.
 Copy the sources to your docker host and build the container, and to run.
 ```
 	docker build --rm -t oheadlee/ubuntu .
-	docker run -it --name u1 -e USER=nowage -e PASSWD=nowage oheadlee/ubuntu
+	docker run -it --name u1 -e USER=oheadlee -e PASSWD=oheadlee oheadlee/ubuntu
 ```
 Get the port that the container is listening on:
 
